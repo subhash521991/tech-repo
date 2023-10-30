@@ -1,5 +1,6 @@
 import React from "react";
-import image from '../assets/images/2.png';
+//import image from '../assets/images/2.png';
+import logo from '../assets/images/Euronics-logo-2.png';
 import '../assets/css/Header.css';
 
 import Container from 'react-bootstrap/Container';
@@ -17,9 +18,8 @@ function Header() {
       <Container>
         <Navbar.Brand href="#home">
         <img
-              src={image}
-              width="80"
-              height="80"
+              src={logo}
+              width="180"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
